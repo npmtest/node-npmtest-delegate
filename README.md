@@ -1,4 +1,7 @@
-# test coverage for  [delegate (v3.1.2)](https://github.com/zenorocha/delegate#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-delegate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-delegate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-delegate.svg)](https://travis-ci.org/npmtest/node-npmtest-delegate)
+# npmtest-delegate
+
+#### basic test coverage for  [delegate (v3.1.2)](https://github.com/zenorocha/delegate#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-delegate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-delegate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-delegate.svg)](https://travis-ci.org/npmtest/node-npmtest-delegate)
+
 #### Lightweight event delegation
 
 [![NPM](https://nodei.co/npm/delegate.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/delegate)
@@ -80,7 +83,8 @@
         "build": "browserify src/delegate.js -s delegate -o dist/delegate.js",
         "test": "karma start --single-run"
     },
-    "version": "3.1.2"
+    "version": "3.1.2",
+    "bin": {}
 }
 ```
 
